@@ -2,11 +2,11 @@ package classes;
 
 public class Arrow {
 
-    int x;
-    int y;
-    int width;
-    int height;
-    boolean isActive = true;
+    public int x;
+    public int y;
+    public int width;
+    public int height;
+    public boolean isActive = true;
 
     public Arrow(int x, int y ){
         this.x = x;

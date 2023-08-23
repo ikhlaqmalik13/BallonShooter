@@ -2,11 +2,11 @@ package classes;
 
 public class Ballon {
 
-    int x;
-    int y;
-    boolean isActive = true;
-    int width;
-    int height;
+    public int x;
+    public int y;
+    public boolean isActive = true;
+    public int width;
+    public int height;
 
     public Ballon(int x, int y){
         this.x = x;
